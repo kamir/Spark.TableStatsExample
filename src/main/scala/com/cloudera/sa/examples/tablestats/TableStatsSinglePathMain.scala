@@ -38,6 +38,9 @@ object TableStatsSinglePathMain {
     val firstPassStats = getFirstPassStat( df)
     //Part E
     println(firstPassStats)
+    
+    firstPassStats.storeInCollection( "tablestats_props_col_1" )
+    
     //Part F
     sc.stop()
   }
