@@ -1,8 +1,8 @@
-# Spark.TableStatsExample
-Simple Spark example of generating table stats for use of data quality checks
+# Data Quality inspection with Spark 
+Simple Spark example of generating table stats for use of data quality checks. The original project was created by Ted Malaska (tmalaska/Spark.TableStatsExample). 
 
 ##SimpleDataGeneratorMain
-This will generate small test data set
+This will generate small test data set.
 
 SimpleDataGeneratorMain {outputPath}
 
